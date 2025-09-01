@@ -1,7 +1,7 @@
 package Lesson1.Example2.BetterCode;
 
 public class EmployeePerformanceEvaluator {
-    public void evaluatePerformance () {
-        
+    public void evaluatePerformance (Employee employee) {
+
     }
 }
