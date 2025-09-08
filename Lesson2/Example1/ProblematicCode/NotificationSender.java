@@ -1,4 +1,4 @@
-package Lesson2.Example2.ProblematicCode;
+package Lesson2.Example1.ProblematicCode;
 
 import java.util.List;
 

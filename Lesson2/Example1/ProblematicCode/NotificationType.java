@@ -1,4 +1,4 @@
-package Lesson2.Example2.ProblematicCode;
+package Lesson2.Example1.ProblematicCode;
 
 public enum NotificationType {
     SMS,
