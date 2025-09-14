@@ -1,6 +1,6 @@
-package Lesson4.ProblematicCode;
+package Lesson4.BetterCode;
 
-public class RupayCard extends CreditCard{
+public class RupayCard extends CreditCard implements UpiCompatableInterface{
     
     @Override
     public void tapAndPay() {

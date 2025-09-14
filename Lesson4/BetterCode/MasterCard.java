@@ -1,6 +1,6 @@
-package Lesson4.ProblematicCode;
+package Lesson4.BetterCode;
 
-public class MasterCard extends CreditCard {
+public class MasterCard extends CreditCard implements InternationalPaymentComaptableInterface{
     
     @Override
     public void tapAndPay() {
@@ -23,8 +23,9 @@ public class MasterCard extends CreditCard {
     }
 
     @Override
-    public void upipayment() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'upipayment'");
+    public void intPayment() {
+        System.out.println("Int payment using MasterCard");
     }
+
+   
 }
